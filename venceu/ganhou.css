@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/venceu/venc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-end;
+    margin: 35px;
+}
+
+body button{
+    background-color: #feffff;
+    font-size: large;
+    border-style:none;
+    border-radius: 20px;
+    text-decoration-color: rgb(0, 0, 0) solid;
+    font-family: 'Tapestry', cursive;
+    font-size:larger;
+    margin-top: 0%;
+    top:0cm;
+}
+
+body button:hover {
+    background-color: #E9967A;
+}
+
+body img {
+    max-width: 730px;
+    margin-right: 360px;
+}
+
+body h1 {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-right: 450px;
+    background-color: #BEBEBE;
+    border-radius: 10px;
+    color: #A52A2A;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+}
+
+body h1:hover {
+    opacity: 75%;
+}

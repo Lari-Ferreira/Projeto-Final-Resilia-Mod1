@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    background-image: url("homem-ferro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.max-width {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+    border: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 0, 0, 0.88);
+    border-style: solid;
+    margin-right: 30;
+}
+
+main:hover{
+    background-color: black;
+    opacity: 80%;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px 10px 10px 0px;
+    color: white;
+    font-family: "VT323", monospace;
+    font-size: 42px;
+}
+
+#cor {
+    padding-left: 0;
+    color: red;
+    font-family: "VT323", monospace;
+    font-size: 40px;
+}
+  
+#pergunta {
+    width: 90%;
+    margin-top: 30px;
+}
+  
+#escolha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+  
+.alternativa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px 10px 10px 12px;
+    border: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 0, 0, 0.88);
+    border-style: solid;
+}
+  
+.clicar {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.enviar {
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(28, 105, 105, 0);
+    border: 2px;
+    border-radius: 10px;
+    border-color: rgba(255, 0, 0, 0.88);
+    border-style: solid;
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    color: white;
+}
+
+.enviar:hover{
+    background-color: #B22222;
+}
+
+#info {
+    font-family: "VT323", monospace;
+    color: rgba(255, 225, 225, 0.841);
+    font-size: 20px;
+    margin-top: 8px;
+}
+  
+.letra {
+    color: rgb(0, 200, 255);
+    font-weight: 800;
+    font-size: 17px;
+    margin-right: 10px;
+}
+  
+
+p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-family: "VT323", monospace;
+    font-size: 22px;
+}

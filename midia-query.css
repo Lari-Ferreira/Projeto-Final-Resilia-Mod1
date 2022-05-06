@@ -1,0 +1,24 @@
+@media (max-width:600px){
+    #titulo {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    main {
+        width: 70%;
+    }
+
+
+}
+
+@media (max-width:400px){
+
+    main {
+        width: 80%;
+    }
+
+    
+}
