@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(/venceu/venc.jpg);
+    background-image: url(./venc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
