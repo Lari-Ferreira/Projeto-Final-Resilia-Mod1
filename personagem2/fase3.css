@@ -9,7 +9,7 @@
 
 body {
 
-    background-image: url("homem-ferro.jpg");
+    background-image: url("./homem-ferro.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
