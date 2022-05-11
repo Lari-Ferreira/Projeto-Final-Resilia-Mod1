@@ -9,7 +9,7 @@
 
 body {
 
-    background-image: url("img/iron-man.jpg");
+    background-image: url("./img/iron-man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
