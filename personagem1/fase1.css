@@ -14,7 +14,7 @@ html {
 
 body {
 
-    background-image: url("galaxia.jpg");
+    background-image: url("./galaxia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;

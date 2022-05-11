@@ -9,7 +9,7 @@
 
 body {
 
-    background-image: url(/gameover/gameover.jpg);
+    background-image: url(./gameover/gameover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
